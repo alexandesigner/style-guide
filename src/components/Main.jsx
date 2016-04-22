@@ -24,7 +24,7 @@ class App extends React.Component {
       <Block>
 
         <Header>
-           <img className="logo" src="./images/logo.png" width="380" />
+           <img className="logo" src="https://github.com/alexandesigner/style-guide/blob/master/src/images/logo.png" width="380" />
 
            <h5 className="header-title">
             CSS Framework based in SMASCS and OOCSS
@@ -32,7 +32,7 @@ class App extends React.Component {
 
            <small className="current-version">Currently v0.0.1</small>
 
-           <a href="http://google.com" className="button button-primary button-large" target="_blank">
+           <a href="https://github.com/alexandesigner/alexandesigner.github.io/archive/master.zip" className="button button-primary button-large" target="_blank">
             Get Started
            </a>
 
@@ -46,14 +46,8 @@ class App extends React.Component {
 
           <h2 className="title">Getting Started</h2>
 
-          <p className="text">There are some ways to get started. First, see all download options available below, then choose the most suitable option for your need. Now you should add the main file of the Style Guide and in the header of your project. Just that!</p>
+          <p className="text">There are some ways to get started. First, see all download options available below, then choose the most suitable option for your need. Just that!</p>
 
-          <a href="http://google.com" className="button button-primary" target="_blank">
-            Download
-          </a>
-          <a href="http://google.com" className="button" target="_blank">
-            Fork
-          </a>
 
           <div className="box-hgroup full-width">
 
@@ -430,12 +424,12 @@ class App extends React.Component {
             <div className="grid-flex grid-flex--gutters grid-flex--cols-3 u-textCenter">
               <div className="grid-flex-cell">
                   <figure>
-                    <img className="img-circle" src="images/img1.png" />
+                    <img className="img-circle" src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img1.png" />
                   </figure>
               </div>
               <div className="grid-flex-cell">
                 <figure>
-                  <img src="images/img2.png" />
+                  <img src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img2.png" />
                   <figcaption>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </figcaption>
@@ -443,7 +437,7 @@ class App extends React.Component {
               </div>
               <div className="grid-flex-cell">
                 <figure className="img-rounded">
-                  <img src="images/img3.png" />
+                  <img src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img3.png" />
                   <figcaption>
                     <strong>Lorem ipsum dolor sit amet</strong>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </figcaption>
