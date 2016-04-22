@@ -24,7 +24,7 @@ class App extends React.Component {
       <Block>
 
         <Header>
-           <img className="logo" src="https://github.com/alexandesigner/style-guide/blob/master/src/images/logo.png" width="380" />
+           <img className="logo" src="https://raw.githubusercontent.com/alexandesigner/style-guide/master/src/images/logo.png" width="380" />
 
            <h5 className="header-title">
             CSS Framework based in SMASCS and OOCSS
@@ -424,12 +424,12 @@ class App extends React.Component {
             <div className="grid-flex grid-flex--gutters grid-flex--cols-3 u-textCenter">
               <div className="grid-flex-cell">
                   <figure>
-                    <img className="img-circle" src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img1.png" />
+                    <img className="img-circle" src="https://raw.githubusercontent.com/alexandesigner/style-guide/master/src/images/img1.png" />
                   </figure>
               </div>
               <div className="grid-flex-cell">
                 <figure>
-                  <img src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img2.png" />
+                  <img src="https://raw.githubusercontent.com/alexandesigner/style-guide/master/src/images/img2.png" />
                   <figcaption>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </figcaption>
@@ -437,7 +437,7 @@ class App extends React.Component {
               </div>
               <div className="grid-flex-cell">
                 <figure className="img-rounded">
-                  <img src="https://github.com/alexandesigner/style-guide/blob/master/src/images/img3.png" />
+                  <img src="https://raw.githubusercontent.com/alexandesigner/style-guide/master/src/images/img3.png" />
                   <figcaption>
                     <strong>Lorem ipsum dolor sit amet</strong>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </figcaption>

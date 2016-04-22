@@ -1,7 +1,7 @@
 {
-  "name": "style-guide",
+  "name": "style-guide-smacss",
   "version": "0.0.1",
-  "description": "Style Guide based in SMASCS and OOCSS",
+  "description": "CSS Framework based in SMASCS and OOCSS",
   "main": "src/index.html",
   "scripts": {
     "start": "node server.js --env=dev",
