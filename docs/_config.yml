@@ -13,8 +13,30 @@ versions:
 sidebar_categories:
   null:
     - index
+  Base:
+    - base/typhography
+    - base/colors
+    - base/forms
+    - base/images
+    - base/utilities
+  Layout:
+    - layout/grid
+    - layout/toolbar
+    - layout/footer
+    - layout/navigation
   Modules:
     - modules/button
+    - modules/breadcrumb
+    - modules/badge
+    - modules/card
+    - modules/depths
+    - modules/toast
+    - modules/collapse
+    - modules/list
+    - modules/loading
+    - modules/pagination
+    - modules/table
+
 github_repo: style-guide/docs
 content_root: source
 logo:
@@ -22,7 +44,7 @@ logo:
   mobile: /logo/icon.png
 nav_links:
   Blog: http://medium.com/style-guide
-  GitHub: https://github.com/alexandesigner/style-guide
+  GitHub: https://github.com/alexandesigner/style-guide  
 favicon: /logo/icon.png
 
 # API keys
@@ -88,3 +110,4 @@ theme: style-guide
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: 
+

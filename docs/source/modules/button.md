@@ -1,16 +1,17 @@
 ---
 title: Button
-order: 3
+order: 10
 description: 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus et modi repellat accusantium libero nostrum placeat illum ad, dicta quia fugiat. Vel assumenda beatae in pariatur aperiam neque repudiandae.
 <div class="box-container">
-	<button class="button">Button Default</button>
+	<button class="button">Button Default</button><button type="button" class="button button-icon button-clear">Button Clear</button><button class="button button-info">Button Info</button><button class="button button-error">Button Error</button><button class="button button-rounded button-success">Button Rounded</button>
 
 	```html
+	<!-- Button default -->
 	<button class="button">
-		Button Default
+		Button
 	</button>
 	```
 </div>

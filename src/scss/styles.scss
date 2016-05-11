@@ -30,16 +30,15 @@
  *  Layout
 */
 
-@import "layout/grid-flex";
+@import "layout/grid";
 @import "layout/footer";
-@import "layout/header";
+@import "layout/toolbar";
 @import "layout/navigation";
 
 /*
  *  Modules
 */
 
-@import "modules/alert";
 @import "modules/article";
 @import "modules/button";
 @import "modules/breadcrumb";
@@ -51,6 +50,7 @@
 @import "modules/list";
 @import "modules/loading";
 @import "modules/pagination";
+@import "modules/toast";
 @import "modules/table";
 
 /*
@@ -63,9 +63,3 @@
 @import "adaptive/landscape";
 @import "adaptive/portrait";
 @import "adaptive/no-screen";
-
-/*
- *  Other
-*/
-
-@import "shame";

@@ -1,6 +1,6 @@
 {
   "name": "style-guide-smacss",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "CSS Framework based in SMASCS and OOCSS",
   "main": "src/index.html",
   "license": "MIT",
