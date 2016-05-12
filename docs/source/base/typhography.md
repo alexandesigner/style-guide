@@ -4,6 +4,8 @@ order: 1
 description: 
 ---
 
+## Texts
+
 <p>The base font size is 16px (1.6rem) over 24px line height (1.6)</p>
 
 <em>Emphasis</em>
@@ -11,11 +13,7 @@ description:
 <strong>Strong</strong>
 <u>Underline</u>
 
-<h1 class="notstylish">Heading</h1><h2 class="notstylish">Heading</h2><h3 class="notstylish">Heading</h3><h4 class="notstylish">Heading</h4><h5 class="notstylish">Heading</h5><h6 class="notstylish">Heading</h6>
-
-<!-- Default Headings -->
 ```html
-
 <!-- Base font-size and line-height -->
 <p>The base font size is 16px (1.6rem) over 24px line height (1.6)</p>
 
@@ -24,7 +22,13 @@ description:
 <small>Small</small>
 <strong>Strong</strong>
 <u>Underline</u>
+```
 
+## Headings
+
+<div class="headings"><strong class="notstylish h1">h1</strong><strong class="notstylish h2">h2</strong><strong class="notstylish h3">h3</strong><strong class="notstylish h4">h4</strong><strong class="notstylish h5">h5</strong><strong class="notstylish h6">h6</strong></div>
+
+```html
 <!-- Heading text markup -->
 <h1>Heading</h1>
 <h2>Heading</h2>
