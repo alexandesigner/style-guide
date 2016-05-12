@@ -9,7 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nulla. Ni
 <div class="breadcrumb"><ul class="no-style"><li><a href="#" title="Link">Link</a></li><li><a href="#" title="Link">Link</a></li><li>Link</li></ul></div>
 
 ```html
-<div class="breadcrumb">
+<div class="breadcrumb b-docs">
     <ul class="no-style">
       <li>
         <a href="#" title="Link">
