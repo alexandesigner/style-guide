@@ -2,6 +2,17 @@
 /* Tables  v0.0.1
 /***********************************/
 
+table {
+    thead {
+        th {
+            text-transform: uppercase;
+            color:$text-color;
+            font-weight:400;
+            @include font-size(11px);
+        }
+    }
+}
+
 // Bordered
 .bordered {
     border: 1px solid rgba(0, 0, 0, 0.08);

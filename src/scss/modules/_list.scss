@@ -34,9 +34,9 @@
     }
     .item-title {
         margin-top: 0;
-        line-height: 22px;
+        line-height: 20px;
         font-weight: 500;
-        @include font-size(18px);
+        @include font-size(16px);
     }
     .item-description {
         color: $divider-color;

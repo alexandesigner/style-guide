@@ -229,17 +229,19 @@ optgroup {
 */
 
 .input-field {
-    float: left;
-    box-shadow: 0 0 0 1px $light-color inset;
     border: 0;
+    background:#fff;
     line-height:32px;
     padding: 8px;
-    width: 100%;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+    box-shadow: 0 0 0 1px $light-color inset;
     @extend .transition;
     @include border-radius($base-radius);
     &:focus,
     &:hover {
-        box-shadow: 0 0 0 2px $secondary-color inset;
+        box-shadow: 0 0 0 1px $secondary-color inset;
         outline: 0;
     }
     &.warning {

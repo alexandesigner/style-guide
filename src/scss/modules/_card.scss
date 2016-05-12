@@ -70,6 +70,10 @@
         font-weight: 500;
         line-height: 42px;
         @include font-size(20px);
+        img {
+            max-height:32px;
+            margin:5px;
+        }
     }
     .card-content {
         padding: 15px 10px;

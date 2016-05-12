@@ -8,20 +8,14 @@
     padding: 20px;
     text-align: center;
     color: $primary-color;
+    margin-top:20px;
+    border-top:1px solid $light-color;
     .footer-links {
-        margin: 0 0 15px 0;
+        margin:0;
         li {
             position: relative;
             display: inline-block;
             margin: 0 10px;
-            &:before {
-                position: absolute;
-                left: 36px;
-                top: -24px;
-                content: ".";
-                @include font-size(40px);
-                color: #fff;
-            }
             &:last-child {
                 &:before {
                     display: none;
@@ -30,10 +24,21 @@
             a {
                 color: $primary-color;
             }
+            &:before {
+                position: absolute;
+                left: 36px;
+                top: 0;
+                content: ".";
+                line-height: 2px;
+                color: #999;
+                @include font-size(36px);
+            }
         }
     }
     .footer-copyright {
-        @include font-size(14px);
+        margin:0!important;
+        color:$text-color;
+        @include font-size(12px);
     }
     .footer-logo {
         margin: 0 auto 20px auto;
