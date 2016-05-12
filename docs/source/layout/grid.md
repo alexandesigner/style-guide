@@ -63,7 +63,7 @@ Offset a column
 
 Add any number of auto sizing columns to a row. Let the grid figure it out.
 
-<div class="row"><div class="col-xs-7"><div class="box box-container"><div class="row"><div class="col-xs-9"><div class="box-first box-container"><div class="row"><div class="col-xs-4"><div class="box-nested"></div></div><div class="col-xs-8"><div class="box-nested"></div></div></div></div></div><div class="col-xs-3"><div class="box-first box-container"><div class="row"><div class="col-xs"><div class="box-nested"></div></div></div></div></div></div></div></div><div class="col-xs-5"><div class="box box-container"><div class="row"><div class="col-xs-12"><div class="box-first box-container"><div class="row"><div class="col-xs-6"><div class="box-nested"></div></div><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-7"><div class="box container-grid"><div class="row"><div class="col-xs-9"><div class="box-first container-grid"><div class="row"><div class="col-xs-4"><div class="box-nested"></div></div><div class="col-xs-8"><div class="box-nested"></div></div></div></div></div><div class="col-xs-3"><div class="box-first container-grid"><div class="row"><div class="col-xs"><div class="box-nested"></div></div></div></div></div></div></div></div><div class="col-xs-5"><div class="box container-grid"><div class="row"><div class="col-xs-12"><div class="box-first container-grid"><div class="row"><div class="col-xs-6"><div class="box-nested"></div></div><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div></div></div></div>
 
 ```html
 <div class="row">
@@ -79,7 +79,7 @@ Add classes to align elements to the start or end of a row as well as the top, b
 
 **`.start-`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row start-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row start-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row start-xs">
@@ -93,7 +93,7 @@ Add classes to align elements to the start or end of a row as well as the top, b
 
 **`.center-`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row center-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row center-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row center-xs">
@@ -107,7 +107,7 @@ Add classes to align elements to the start or end of a row as well as the top, b
 
 **`.end-`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row end-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row end-xs"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row end-xs">
@@ -121,7 +121,7 @@ Add classes to align elements to the start or end of a row as well as the top, b
 
 Here is an example of using the modifiers in conjunction to acheive different alignment at different viewport sizes.
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row center-xs end-sm start-lg"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row center-xs end-sm start-lg"><div class="col-xs-6"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row center-xs end-sm start-lg">
@@ -181,7 +181,7 @@ Add classes to distribute the contents of a row or column.
 
 **`.around-`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row around-xs"><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row around-xs"><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row around-xs">
@@ -205,7 +205,7 @@ Add classes to distribute the contents of a row or column.
 
 **`.between-`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row between-xs"><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row between-xs"><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div><div class="col-xs-2"><div class="box-nested"></div></div></div></div></div></div>
 
 ```html
 <div class="row between-xs">
@@ -233,7 +233,7 @@ Add classes to reorder columns.
 
 **`.first-`** 
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row"><div class="col-xs-2"><div class="box-first">1</div></div><div class="col-xs-2"><div class="box-first">2</div></div><div class="col-xs-2"><div class="box-first">3</div></div><div class="col-xs-2"><div class="box-first">4</div></div><div class="col-xs-2"><div class="box-first">5</div></div><div class="col-xs-2 first-xs"><div class="box-nested">6</div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row"><div class="col-xs-2"><div class="box-first">1</div></div><div class="col-xs-2"><div class="box-first">2</div></div><div class="col-xs-2"><div class="box-first">3</div></div><div class="col-xs-2"><div class="box-first">4</div></div><div class="col-xs-2"><div class="box-first">5</div></div><div class="col-xs-2 first-xs"><div class="box-nested">6</div></div></div></div></div></div>
 
 ```html
 <div class="row">
@@ -257,7 +257,7 @@ Add classes to reorder columns.
 
 **`.last-`** 
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row"><div class="col-xs-2 last-xs"><div class="box-nested">1</div></div><div class="col-xs-2"><div class="box-first">2</div></div><div class="col-xs-2"><div class="box-first">3</div></div><div class="col-xs-2"><div class="box-first">4</div></div><div class="col-xs-2"><div class="box-first">5</div></div><div class="col-xs-2"><div class="box-first">6</div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row"><div class="col-xs-2 last-xs"><div class="box-nested">1</div></div><div class="col-xs-2"><div class="box-first">2</div></div><div class="col-xs-2"><div class="box-first">3</div></div><div class="col-xs-2"><div class="box-first">4</div></div><div class="col-xs-2"><div class="box-first">5</div></div><div class="col-xs-2"><div class="box-first">6</div></div></div></div></div></div>
 
 ```html
 <div class="row">
@@ -283,7 +283,7 @@ Add classes to reorder columns.
 
 **`.reverse`**
 
-<div class="row"><div class="col-xs-12"><div class="box box-container"><div class="row reverse"><div class="col-xs-2"><div class="box-nested">1</div></div><div class="col-xs-2"><div class="box-nested">2</div></div><div class="col-xs-2"><div class="box-nested">3</div></div><div class="col-xs-2"><div class="box-nested">4</div></div><div class="col-xs-2"><div class="box-nested">5</div></div><div class="col-xs-2"><div class="box-nested">6</div></div></div></div></div></div>
+<div class="row"><div class="col-xs-12"><div class="box container-grid"><div class="row reverse"><div class="col-xs-2"><div class="box-nested">1</div></div><div class="col-xs-2"><div class="box-nested">2</div></div><div class="col-xs-2"><div class="box-nested">3</div></div><div class="col-xs-2"><div class="box-nested">4</div></div><div class="col-xs-2"><div class="box-nested">5</div></div><div class="col-xs-2"><div class="box-nested">6</div></div></div></div></div></div>
 
 ```html
 <div class="row reverse">
