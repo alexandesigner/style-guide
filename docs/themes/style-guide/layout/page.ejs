@@ -11,9 +11,7 @@ layout: false
     <p class="edit-discuss-links">
       <a href="https://github.com/<%- config.github_repo || 'alexandesigner/style-guide' %>/docs/source/<%- config.content_root || 'content' %>/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">Edit on GitHub</a>
     </p>
-    <div class="main-container">
       <%- page.content %>
-    </div>
     <div class="bottom-nav">
       <%
         function findAdjacent (direction) {
