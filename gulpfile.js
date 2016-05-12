@@ -22,6 +22,11 @@
         errLogToConsole: true
       }))
       .pipe(concat('styles.min.css'))
+
+      // Development
+      //.pipe(gulp.dest('./docs/themes/style-guide/source/style/dist'));
+
+      // Production
       .pipe(gulp.dest('./dist'));
   });
 
