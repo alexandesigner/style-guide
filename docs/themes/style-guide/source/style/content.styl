@@ -12,19 +12,20 @@ code-font()
     font-style italic
 
   strong
-    font-family 'ProximaNova-Bold'
+    font-family 'Roboto'
 
   h1, h2, h3, h4, h5, h6, p, ul, ol, figure
     margin 15px 0
     line-height 1.4em
 
   h1
-    font-size 2.6em
+    font-size 2.2em
     margin-top 0
-    margin-bottom 0
+    margin-bottom 20px
+    color #196ACC
 
   h2
-    font-size 2em
+    font-size 1.6em
     margin-top 30px
     padding-bottom 10px
     border-bottom 1px solid #eee
@@ -33,19 +34,20 @@ code-font()
       margin-top 15px
 
   h3
-    font-size 1.6em
+    font-size 1.2em
     margin-top 30px
 
   h2
     .anchor 
-      top 12px!important
+      top 6px !important
+      font-size 26px !important
   h2, h3
     position relative
     .anchor
       opacity 0
       position absolute
-      font-size 26px
-      top 8px
+      font-size: 20px;
+      top 2px
       left -26px
     &:hover
       .anchor
@@ -80,16 +82,34 @@ code-font()
     font-style italic
 
   .edit-discuss-links
-    margin-bottom 20px
-    margin-top 10px
+    position absolute
+    right 18px
+    top 35px
+    min-width 142px
+    margin 0
+    &:before 
+      content ''
+      display inline-block
+      width 16px
+      height 16px
+      background url("../images/gh.png") center center no-repeat
+      background-size 16px
+      opacity 0.3
+      margin-right 8px
+      position relative
+      float left
+      top 2px
+    a
+      color #aaa
 
   .highlight
     code-font()
     margin 20px 0
     overflow-x auto
     position relative
-    background-color #f8f8fc
-    padding 25px 15px
+    border-top 1px solid #e5e5e5
+    border-bottom 1px solid #e5e5e5
+    padding 0 0 0 0
     table, tr, td
       width 100%
       border-collapse collapse
@@ -97,13 +117,14 @@ code-font()
       margin 0
     .gutter
       user-select none
-      width 1.5em
+      width 1.2em
       padding-right 10px
+      border-right:1px solid #e5e5e5;
     &.html, &.js, &.bash, &.css
       .code:after
         font-family 'Roboto'
         position absolute
-        top 0
+        top 5px
         right 5px
         color #666
         text-align right
@@ -142,7 +163,7 @@ code-font()
   .main-container
     display inline-block
     
-  .box-container 
+  .container-grid 
     margin-bottom 0!important
     background rgba(#2990EA, 0.2)!important
     .box-row, .box-first, .box-nested
@@ -195,31 +216,77 @@ code-font()
     margin 0
     padding 0
     border 0
+    color #212121
     .anchor
       display none
-      
-  h1.nostylish 
-    font-size 50px
-  h2.nostylish 
-    font-size 42px
-  h3.nostylish 
-    font-size 36px
-  h4.nostylish 
-    font-size 30px
-  h5.nostylish 
-    font-size 24px
-  h6.nostylish 
-    font-size 15px
+  .headings
+    .h1, .h2, .h3, .h4, .h5, .h6
+      display block
+      margin-bottom 10px
+    .h1 
+      font-size 50px
+    .h2 
+      font-size 42px
+    .h3 
+      font-size 36px
+    .h4 
+      font-size 30px
+    .h5 
+      font-size 24px
+    .h6 
+      font-size 15px
 
   .breadcrumb
-    background #f8f8fc
-    border-radius 3px
     ul
-      padding 6px 12px!important
       list-style none!important
       margin 0!important
+      li 
+        margin-bottom 0!important
   
   .last-xs, .first-xs
     .box-nested
       opacity .4
       color #212121
+      
+  .toggle
+    margin-right 5px
+    
+  .toolbar-content
+    .title
+      font-size 1.6em
+      
+  .toolbar
+    .title
+      a
+        color #20212B
+    .title-left
+      padding-left:60px!important;
+      
+  .toolbar-positive 
+    .sub-header 
+      a 
+        color #fff
+      
+  .b-docs
+    a #196acc!important
+      
+  .no-style
+    padding 0
+    margin 0
+  .toast, .collapse
+    p 
+      margin 0!important
+      
+  .list
+    .item
+      p
+        margin 0!important
+  .pagination
+    .activated
+      a
+        color #fff!important
+      &:hover
+        a
+          color #196ACC!important
+  .button-error
+    color #fff!important
