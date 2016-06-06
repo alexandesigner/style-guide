@@ -9,7 +9,7 @@ author:
 language:
 timezone:
 versions:
-  - '1.0'
+  - '0.1.0'
 sidebar_categories:
   null:
     - index
@@ -41,7 +41,7 @@ sidebar_categories:
 github_repo: style-guide/docs
 content_root: source
 logo:
-  desktop: /logo/logo.png
+  desktop: /logo/logo-white.png
   mobile: /logo/icon.png
   white: /logo/logo-white.png
 nav_links:
@@ -55,7 +55,7 @@ apis:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://alexandesigner.github.io/style-guide/docs
+url: http://alexandesigner.github.io/style-guide
 root: /
 permalink: docs/:year/:month/:day/:title/
 permalink_defaults:
@@ -112,5 +112,5 @@ theme: style-guide
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
    type: git
-   repo: https://github.com/alexandesigner/style-guide/docs-dist
+   repo: https://github.com/alexandesigner/style-guide/public
 
