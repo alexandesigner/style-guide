@@ -158,6 +158,33 @@
     visibility: visible
 }
 
+// Hide Devices
+.hide-widescreen {
+    @include widescreen {
+        display: none;
+    }
+}
+.hide-desktop {
+    @include desktop {
+        display: none;
+    }
+}
+.hide-tablet {
+    @include tablet {
+        display: none;
+    }
+}
+.hide-landscape {
+    @include landscape {
+        display: none;
+    }
+}
+.hide-portrait {
+    @include portrait {
+        display: none;
+    }
+}
+
 // Element disabled
 [disabled] {
     @include opacity(0.6);
