@@ -1,0 +1,208 @@
+/*
+/* Toolbar  v0.0.1
+/***********************************/
+
+.toolbar {
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+    background:$base-color;
+    .toolbar-content {
+        position: relative;
+        width: 100%;
+        display: table;
+        height: 52px;
+        line-height: 52px;
+        min-height: 52px;
+    }
+    // Bar: Title
+    .title {
+        text-align: center;
+        width: 100%;
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 0 48px;
+        font-family: $base-font-title;
+        color: $dark-color;
+        img {
+            max-height: 42px;
+            margin: 5px auto;
+        }
+        small {
+            font-size: 14px;
+            float: right;
+            margin-top: 16px;
+        }
+        a {
+            display: block;
+            float: left;
+            line-height: 52px;
+            text-decoration: none;
+            color: $dark-color;
+        }
+    }
+    .title-left {
+        padding-left:60px;
+    }
+    .button {
+        height: 52px;
+        line-height: 50px;
+        min-height: 52px;
+        color: $secondary-color;
+        float: left;
+        &:focus,
+        &:hover {
+            background: rgba(0, 0, 0, 0.06);
+            @include border-radius(0);
+        }
+        i {
+            @include font-size(18px);
+        }
+    }
+    // Bar: Left
+    .toolbar-left,
+    .toolbar-right {
+        position: absolute;
+        top: 0;
+        height: 52px;
+        z-index: 5;
+    }
+    .toolbar-left {
+        left: 0;
+    }
+    // Bar: Right
+    .toolbar-right {
+        right: 0;
+    }
+    .sub-header {
+        height: 32px;
+        line-height: 32px;
+        display:table;
+        width:100%;
+        .sub-title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            display: inline-block;
+        }
+    }
+}
+
+.toolbar-positive {
+    background: $secondary-color;
+    a {
+        color: #fff;
+    }
+    .toolbar-content {
+        background: $secondary-color;
+    }
+    .sub-header {
+        background: rgba(0, 0, 0, .15);
+        color: rgba(255, 255, 255, 0.7);
+        a {
+            color:#fff;
+        }
+    }
+    // Breadcrumb
+    .breadcrumb {
+        float:none;
+        padding:0 18px;
+        vertical-align:middle;
+        display:table-cell;
+        width: auto;
+    }
+    .button {
+        color: #fff;
+        i {
+            color: #fff;
+        }
+    }
+    // Bar: Title
+    .title {
+        color: #fff;
+        small {
+            color: #fff;
+            font-size: 14px;
+            float: right;
+            margin-top: 16px;
+        }
+    }
+}
+
+// Bar Assertive
+.toolbar-assertive {
+    background: $primary-color;
+    a {
+        color: #fff;
+    }
+    .toolbar-content {
+        background: $primary-color;
+    }
+    .sub-header {
+        background: rgba(0, 0, 0, .15);
+        height: 32px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    // Breadcrumb
+    .breadcrumb {
+        float: left;
+        margin: 5px 20px;
+        width: auto;
+    }
+    .button {
+        color: #fff;
+        i {
+            color: #fff;
+        }
+    }
+    // Bar: Title
+    .title {
+        color: #fff;
+        small {
+            color: #fff;
+            font-size: 14px;
+            float: right;
+            margin-top: 16px;
+        }
+    }
+}
+
+// Search bar
+.search-toolbar {
+    position: relative;
+    float: right;
+    margin:10px;
+    .input-field {
+        line-height: 32px;
+        padding: 0 10px 0 35px;
+        &:focus,
+        &:hover {
+            border-color: $secondary-color;
+            outline: 0;
+        }
+    }
+    .button-search {
+        height: 32px;
+        line-height: 32px;
+        min-height: 32px;
+        color: $secondary-color;
+        position: absolute;
+        left: 10px;
+        top:0;
+        padding: 0;
+        &:focus,
+        &:hover {
+            background: rgba(0, 0, 0, 0.06);
+            @include border-radius(0);
+        }
+        i {
+            @include font-size(18px);
+        }
+    }
+}

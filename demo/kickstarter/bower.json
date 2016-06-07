@@ -1,0 +1,22 @@
+{
+  "name": "kickstarter-style-guide-smacss",
+  "version": "0.0.1",
+  "authors": [
+    "Allan Alexandre <alexandesigner@gmail.com>"
+  ],
+  "description": "Generator for CSS Framework based in SMASCS and OOCSS",
+  "main": "app/css/styles.css",
+  "keywords": [
+    "jQuery",
+    "Sass",
+    "SASS",
+    "less",
+    "Stylus",
+    "Less",
+    "Gulp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}

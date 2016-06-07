@@ -1,0 +1,91 @@
+/*
+/* Card  v0.0.1
+/***********************************/
+
+.card {
+    border: 1px solid $light-color;
+    background: #fff;
+    @include border-radius($base-radius);
+    .card-header,
+    .card-footer {
+        position: relative;
+        padding: 0 10px;
+        background: $base-color;
+        height: 42px;
+        line-height: 42px;
+    }
+    .card-icon-left {
+        .card-title {
+            float: left;
+            position: relative;
+            left: 40px;
+        }
+    }
+    .card-header {
+        border-bottom: 1px solid $light-color;
+        width: 100%;
+        margin: 0;
+        @include border-radius-separate($base-radius, $base-radius, 0, 0);
+        img {
+            @include border-radius-separate($base-radius, $base-radius, 0, 0);
+        }
+        .button {
+            height: 42px;
+            line-height: 42px;
+            float: left;
+            @include border-radius(0);
+            &:hover {
+                background: rgba(0, 0, 0, 0.05);
+            }
+        }
+        .card-header-right,
+        .card-header-left {
+            position: absolute;
+            top: 0;
+            height: 42px;
+            line-height: 42px;
+        }
+        .card-header-right {
+            right: 0;
+            .button {
+                &:last-child {
+                    @include border-radius-separate(0, $base-radius, 0, 0);
+                }
+            }
+        }
+        .card-header-left {
+            left: 0;
+            .button {
+                &:first-child {
+                    @include border-radius-separate($base-radius, 0, 0, 0);
+                }
+            }
+        }
+    }
+    .card-footer {
+        border-top: 1px solid $light-color;
+        @include border-radius-separate(0, 0, $base-radius, $base-radius);
+    }
+    .card-title {
+        font-weight: 500;
+        line-height: 42px;
+        @include font-size(20px);
+        img {
+            max-height:32px;
+            margin:5px;
+        }
+    }
+    .card-content {
+        padding: 15px 10px;
+    }
+}
+
+// Placeholder
+.placeholder {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px dashed $light-color;
+    background: $base-color;
+    color: #666;
+    @include border-radius($base-radius);
+}
