@@ -1,0 +1,25 @@
+{
+  "name": "generator-style-guide-smacss",
+  "version": "0.0.1",
+  "description": "Generator for CSS Framework based in SMASCS and OOCSS",
+  "main": "app/index.js",
+  "license": "MIT",
+  "repository": "allanalexandre/generator-style-guide-smacss",
+  "author": "Allan Alexandre",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "style-guide",
+    "style-guide-smacss",
+    "generator-style-guide-smacss",
+    "style-guide-generator",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.1.0"
+  }
+}

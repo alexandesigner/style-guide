@@ -1,0 +1,60 @@
+/*
+/* Tables  v0.0.1
+/***********************************/
+
+table {
+    thead {
+        th {
+            text-transform: uppercase;
+            color:$text-color;
+            font-weight:400;
+            @include font-size(11px);
+        }
+    }
+}
+
+// Bordered
+.bordered {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    @include border-radius(4px);
+    tr {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        &:last-child {
+            border: 0;
+        }
+    }
+}
+
+// Striped
+.striped {
+    thead {
+        background: #fff;
+    }
+    tbody {
+        tr {
+            &:nth-child(odd) {
+                background-color: #f2f2f2;
+            }
+        }
+    }
+}
+
+// Centered
+.centered {
+    thead tr th,
+    tbody tr td {
+        text-align: center;
+    }
+}
+
+// Hoverable
+.hoverable {
+    tbody {
+        tr {
+            @extend .transition;
+            &:hover {
+                background-color: #f2f2f2;
+            }
+        }
+    }
+}
