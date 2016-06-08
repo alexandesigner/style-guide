@@ -1,0 +1,23 @@
+/*
+ * Modules
+ * @ Chips
+ *
+*/
+
+.chip {
+    padding: 0 10px 0 0;
+    background: $light-color;
+    border-radius: $base-rounded-radius;
+    display: table;
+    img {
+        float: left;
+        margin-right: 5px;
+        @include border-radius($base-circle-radius);
+    }
+    span {
+        display: table-cell;
+        vertical-align: middle;
+        font-size:12px;
+        font-weight:500;
+    }
+}

@@ -1,12 +1,15 @@
-/* Utilities and Helpers */
-/***********************************/
+/*
+ * Config
+ * @ Utilities
+ *
+*/
 
-// Clearfix
+/* Clearfix */
 .clearfix {
     @include clearfix();
 }
 
-// Block Width
+/* Block Width */
 .full-width {
     width: 100%;
     zoom: 1;
@@ -22,7 +25,7 @@
     }
 }
 
-// Block Height
+/* Block Height */
 .full-height {
     height: 100%;
     zoom: 1;
@@ -38,14 +41,14 @@
     }
 }
 
-// Unstyle List
+/* Unstyle List */
 .no-style {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-// Add remove floats
+/* Add remove floats */
 .pull-right {
     float: right;
 }
@@ -58,7 +61,7 @@
     float: none;
 }
 
-// Align
+/* Align */
 .align-center {
     text-align: center;
     margin: 0 auto;
@@ -74,36 +77,36 @@
     text-align: right;
 }
 
-// Indent
+/* Indent */
 .indent {
     span {
         display: none;
     }
 }
 
-// Transition
+/* Transition */
 .transition {
     @include transition(all, 0.2s, ease-in-out);
 }
 
-// Help cursor
+/* Help cursor */
 .informative {
     cursor: help;
 }
 
-// Mute object
+/* Mute object */
 .muted {
     @include opacity(0.5);
 }
 
-// Truncate text
+/* Truncate text */
 .truncate {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-// Texto Label
+/* Texto Label */
 .label {
     font-size: 15px;
     color: #888;
@@ -114,10 +117,10 @@
     overflow: hidden;
 }
 
-// Divider
+/* Divider */
 .divider {}
 
-// Title Align
+/* Title Align */
 .title-left {
     text-align: left;
     img {
@@ -140,7 +143,7 @@
     }
 }
 
-// Display Show/Hide
+/* Display Show/Hide */
 .hide,
 [hidden] {
     margin: -1px;
@@ -158,7 +161,7 @@
     visibility: visible
 }
 
-// Hide Devices
+/* Hide Devices */
 .hide-widescreen {
     @include widescreen {
         display: none;
@@ -185,12 +188,12 @@
     }
 }
 
-// Element disabled
+/* Element disabled */
 [disabled] {
     @include opacity(0.6);
 }
 
-// No Padding
+/* No Padding */
 .no-padding {
     padding: 0;
 }
@@ -211,7 +214,7 @@
     padding-left: 0;
 }
 
-// Padding (top, right, bottom, left)
+/* Padding (top, right, bottom, left) */
 .padding-top-5 {
     padding-top: 5px;
 }
@@ -340,7 +343,7 @@
     padding-left: 50px;
 }
 
-// No Margin
+/* No Margin */
 .no-margin {
     margin: 0;
 }
@@ -361,7 +364,7 @@
     margin-left: 0;
 }
 
-// Margin (top, right, bottom, left)
+/* Margin (top, right, bottom, left) */
 .margin-top-5 {
     margin-top: 5px;
 }

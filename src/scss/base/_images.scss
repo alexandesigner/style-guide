@@ -1,13 +1,16 @@
-/* Images */
-/***********************************/
+/*
+ * Base
+ * @ Images
+ *
+*/
 
-// Images
+/* Images */
 img.responsive-img {
     max-width: 100%;
     height: auto;
 }
 
-// Image Alignments
+/* Image Alignments */
 .img-right {
     float: right;
     margin: 0 0 30px 25px;
@@ -25,7 +28,7 @@ img.responsive-img {
     margin-left: auto;
 }
 
-// Reset block image
+/* Reset block image */
 figure {
     margin: 0;
     position: relative;
@@ -43,7 +46,7 @@ figure {
     }
 }
 
-// Image Rounded
+/* Image Rounded */
 .img-rounded {
     @include border-radius($base-radius);
     img {
@@ -57,7 +60,7 @@ figure {
     }
 }
 
-// Image Circle
+/* Image Circle */
 .img-circle {
     @include border-radius($base-circle-radius);
     img {
@@ -65,7 +68,7 @@ figure {
     }
 }
 
-// Image Thumbnails
+/* Image Thumbnails */
 .img-thumbnail {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.08);

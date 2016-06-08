@@ -1,0 +1,50 @@
+/*
+ * Modules
+ * @ Avatar
+ *
+*/
+
+.avatar {
+	border-radius:50%;
+	position:relative;
+	width: 42px;
+	height: 42px;
+	line-height:42px;
+	background:$base-color;
+	border-radius:50%;
+	text-align:center;
+	margin:0 4px;
+	display:inline-block;
+	color:$text-color;
+	font-size:16px;
+}
+
+/* Avatar Primary */
+.avatar-primary {
+	background:$primary-color;
+	color:#fff;
+}
+
+/* Avatar Assertive */
+.avatar-assertive {
+	background:$assertive-color;
+	color:#fff;
+}
+
+/* Avatar Success */
+.avatar-success {
+	background:$success-color;
+	color:#fff;
+}
+
+/* Avatar Error */
+.avatar-error {
+	background:$error-color;
+	color:#fff;
+}
+
+/* Avatar Light */ 
+.avatar-light {
+	background:#fff;
+	color:$primary-color;
+}

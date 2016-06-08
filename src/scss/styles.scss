@@ -6,19 +6,19 @@
 
 
 /*
- *  Theme
+ *  Config
 */
 
-@import "theme/config";
+@import "config/variables";
+@import "config/mixins";
+@import "config/utilities";
+@import "config/reset";
 
 
 /*
  *  Base
 */
 
-@import "base/mixins";
-@import "base/utilities";
-@import "base/reset";
 @import "base/colors";
 @import "base/text";
 @import "base/images";
@@ -39,11 +39,13 @@
  *  Modules
 */
 
+@import "modules/avatar";
 @import "modules/article";
 @import "modules/button";
 @import "modules/breadcrumb";
 @import "modules/badge";
 @import "modules/card";
+@import "modules/chips";
 @import "modules/collapse";
 @import "modules/dialog";
 @import "modules/depths";

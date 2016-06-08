@@ -1,13 +1,6 @@
 /*
  * Modules
- * @ Button  v0.0.1
- *
-*/
-
-
-/*
- *
- * Button
+ * @ Button
  *
 */
 
@@ -35,6 +28,13 @@
     @include transition(all, 0.2s, ease-in-out);
     @include box-sizing(border-box);
     @include border-radius($base-radius);
+    &:hover {
+        opacity:0.88;
+    }
+    &:active {
+        opacity:0.88;
+        @extend .no-depth;
+    }
     /*
      * Button Icon
     */
@@ -107,11 +107,10 @@
     background: transparent;
     @extend .no-depth;
     &:hover {
-        //opacity:0.8;
         @extend .no-depth;
     }
     &:active {
-        opacity: 0.6;
+        opacity:0.88;
         @extend .no-depth;
     }
 }
@@ -177,7 +176,7 @@
 */
 
 .button-primary {
-    background-color: $primary-color;
+    background: $primary-color;
     color: color($light, 1000);
     i {
         color: color($light, 1000);
