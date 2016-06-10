@@ -1,5 +1,5 @@
 ---
-title: Code Style
+title: Variables
 order: 1
 description: 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Mixins
-order: 5
+title: Reset
+order: 3
 description: 
 ---
 

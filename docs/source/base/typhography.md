@@ -1,6 +1,6 @@
 ---
 title: Typhography
-order: 1
+order: 3
 description: 
 ---
 

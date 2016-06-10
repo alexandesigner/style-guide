@@ -13,23 +13,25 @@ versions:
 sidebar_categories:
   null:
     - index
+    - generator
+    - templates
   Base:
     - base/typhography
     - base/colors
     - base/forms
     - base/images
-    - base/utilities
-    - base/mixins
   Layout:
     - layout/toolbar
     - layout/footer
     - layout/grid
     - layout/navigation
   Modules:
+    - modules/avatar
     - modules/button
     - modules/breadcrumb
     - modules/badge
     - modules/card
+    - modules/chips
     - modules/collapse
     - modules/dialogs
     - modules/loading
@@ -37,6 +39,11 @@ sidebar_categories:
     - modules/pagination
     - modules/toast
     - modules/table
+  Configuration:
+    - config/variables
+    - config/mixins
+    - config/reset
+    - config/utilities
 
 github_repo: style-guide/docs
 content_root: source
