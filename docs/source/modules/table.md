@@ -4,10 +4,9 @@ order: 22
 description: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, magni. Nesciunt vel molestiae modi earum voluptatem, animi necessitatibus inventore quasi voluptas adipisci temporibus culpa quidem est doloremque voluptatibus ratione ab.
+The Table element represents data in two dimensions or more. We encourage the use of proper formatting with **``<thead>``** and **``<tbody>``** to create a **``<table>``**. The code becomes cleaner without disturbing understanding.
 
-This classes to stylish your table
-**`.hoverable`** **`.striped`** 
+Add the class **``.table``** to any **``<table>``** element. The class will add padding, border and emphasized table header. Use **``.striped``** to add zebra striped style. For hoverable table rows, you can add the class **``.hoverable``** to enable hover style.
 
 <div class="box-container">
 
