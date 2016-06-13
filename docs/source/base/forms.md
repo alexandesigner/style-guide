@@ -4,6 +4,8 @@ order: 5
 description: 
 ---
 
+The Form has never been exactly fun, and it can be downright painful on a mobile device with its on-screen keyboard. Style guide help to make this much easier with design focused on the user experience.
+
 ## Text fields
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod esse similique nam culpa praesentium nisi molestiae maxime aliquid ea quibusdam sequi fugit debitis, minus deserunt perspiciatis iure accusamus repellendus.
 
