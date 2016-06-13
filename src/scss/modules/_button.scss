@@ -139,27 +139,10 @@
 
 .button-outline {
     @include box-shadow(0, 0, 0, 2px, rgba(0, 0, 0, .08));
-    background:transparent;
+    background:transparent!important;
+    color:$dark-opacity-color!important;
     &:hover {
         @include box-shadow(0, 0, 0, 2px, rgba(0, 0, 0, .2));
-    }
-    &:active {
-        @include box-shadow(0, 0, 0, 2px, rgba(0, 0, 0, .06));
-    }
-}
-
-
-/*
- * Button Rounded White
-*/
-
-.button-outline-white {
-    @include box-shadow(0, 0, 0, 2px, rgba(255, 255, 255, 1));
-    &:hover {
-        @include box-shadow(0, 0, 0, 2px, rgba(255, 255, 255, 0.9));
-    }
-    &:active {
-        @include box-shadow(0, 0, 0, 2px, rgba(255, 255, 255, 0.6));
     }
 }
 
