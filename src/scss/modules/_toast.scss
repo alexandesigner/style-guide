@@ -6,19 +6,18 @@
 
 .toast {
     position: relative;
-    border: 1px solid color($yellow, 200);
     padding: 12px;
-    background: color($yellow, 50);
+    background: color($amber, 500);
     margin-bottom: 15px;
     padding-right: 32px;
-    color: color($orange, 400);
+    color: #fff;
     @include border-radius($base-radius);
     @extend .transition;
     .close {
         position: absolute;
         right: -2px;
         top: 3px;
-        color: color($dark, 100);
+        color: color($dark, 200);
     }
 }
 
@@ -31,15 +30,11 @@
 }
 
 .toast-info {
-    background: color($blue, 50);
-    color: color($blue, 500);
-    border: 1px solid color($blue, 100);
-    ;
+    background: color($blue, 500);
+    color: #fff
 }
 
 .toast-error {
-    background: color($red, 50);
-    color: color($red, 500);
-    border: 1px solid color($red, 100);
-    ;
+    background: color($red, 500);
+    color: #fff;
 }
