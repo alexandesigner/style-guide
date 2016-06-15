@@ -263,6 +263,7 @@ optgroup {
 .select-field {
     position: relative;
     min-width:160px;
+    display:inline-block;
     &:hover {
         select {
           box-shadow: 0 0 0 2px $primary-color inset;
@@ -276,7 +277,6 @@ optgroup {
         -webkit-appearance: none;
         -moz-appearance: none;
         background:#f4f4f4;
-        min-width: 140px;
         margin: 0;
         padding: 0 38px 0 16px;
         border: none;
@@ -310,7 +310,7 @@ optgroup {
         width: 0;
         height: 0;
         bottom: 28px;
-        right: 18px;
+        right: 41px;
         font-size: 15px;
         float: right;
         @extend .transition;
