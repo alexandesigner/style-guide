@@ -19,4 +19,6 @@ Bug report, suggestions and improvements
 
 [Issues](https://github.com/alexandesigner/style-guide/issues)
 
+Designed with ♥ by [alexandesigner](https://alexandesigner.com.br). Licensed under the MIT License.
+
 
