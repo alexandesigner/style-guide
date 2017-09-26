@@ -1,3 +1,4 @@
+# [Deprecated](https://github.com/vishnucss/vishnu) - See the continuation of this project
 <p><img src="http://s32.postimg.org/fc2cqmavp/logo.png" width="480" /></p>
 
 > A simple and minimalist toolkit with modern css
